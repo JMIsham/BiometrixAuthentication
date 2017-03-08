@@ -20,14 +20,17 @@ import java.util.logging.Logger;
  * @author Isham
  */
 public class IOManager {
-    public static void Write(String Message){
+    public static String Write(String Message){
         try(FileWriter fw = new FileWriter("test.txt", true);
                 BufferedWriter bw = new BufferedWriter(fw);
                 PrintWriter out = new PrintWriter(bw))
             {
                 out.println(Message); 
+                return "REGISTATION_SUCCEEDED!";
             } catch (IOException e) {
                 System.out.println(e);
+                return "REGISTATION_FAILED!";
+                
             }
     }
     

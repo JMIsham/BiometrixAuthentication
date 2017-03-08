@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author Isham
  */
 public class ConvertToBit {
-    public static int readings = 3;
+    public static int readings = 8;
     public static String toBinary(int[] readings){
         return convertAll(readings);
     }

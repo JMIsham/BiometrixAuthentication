@@ -5,6 +5,8 @@
  */
 package boimetrixauthentication.Model;
 
+import com.sun.org.apache.xml.internal.security.encryption.EncryptedData;
+
 /**
  *
  * @author Isham
@@ -16,16 +18,8 @@ public class BoimetrixAuthentication {
      */
     public static void main(String[] args) {
         
-        int[] ints={150,90,62,56,12,89,15};
-        ConvertToBit.readings=ints.length;
-        System.out.println(ConvertToBit.toBinary(ints));
-        
-        int vals[] = ConvertToBit.toDecimal(ConvertToBit.toBinary(ints));
-        for (int val : vals) {
-            System.out.println(val);
-        }
-        
-        
+//        int[] ints={150,90,62,56,12,89,15,40};
+   
     }
     
 }

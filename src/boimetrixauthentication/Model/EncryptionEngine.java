@@ -11,7 +11,6 @@ package boimetrixauthentication.Model;
  */
 public class EncryptionEngine {
     public static String encrypt(int[] readings){
-//        ConvertToBit.readings=ints.length;
         return Cipher.encrypt(ModernCipher.encrypt(ConvertToBit.toBinary(readings)));
     }
     public static int[] decrypt(String code){

@@ -19,7 +19,11 @@ public class BoimetrixAuthentication {
     public static void main(String[] args) {
         
 //        int[] ints={150,90,62,56,12,89,15,40};
+        System.out.println((IOManager.Read("user2")));
    
+    }
+    public static String register(String username,int[] handFeaters){
+        
     }
     
 }

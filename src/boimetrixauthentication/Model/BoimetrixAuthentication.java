@@ -54,7 +54,6 @@ public class BoimetrixAuthentication {
                 return "AUTHENTICATION_FAILED";
             }
         }
-        
         return "SUCCEEDED!";
     }
     public static boolean checkUsernameFromStore(String username){

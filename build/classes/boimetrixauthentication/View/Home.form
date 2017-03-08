@@ -550,6 +550,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sitka Display" size="13" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="By: J.M Isham (140236P)"/>
           </Properties>
         </Component>

@@ -363,6 +363,7 @@ public class Home extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Georgia", 0, 18)); // NOI18N
         jLabel5.setText("SMART BIOMETRIC AUTHENTICATION SYSTEM");
 
+        jLabel7.setFont(new java.awt.Font("Sitka Display", 0, 13)); // NOI18N
         jLabel7.setText("By: J.M Isham (140236P)");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
